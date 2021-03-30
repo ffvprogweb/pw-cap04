@@ -11,6 +11,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @Configuration
 @EnableWebSecurity
+/*
+ * Configuração de segurança
+ */
 public class ConfiguracaoDeSeguranca extends WebSecurityConfigurerAdapter {
      //configuracao de autorizacao
 	@Override
